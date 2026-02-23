@@ -110,6 +110,7 @@ li{
     transition: all 300ms ease;
     visibility: hidden;
     opacity: 0;
+    transform: translateX(100%);
 }
 
 .menu--open .menu__backdrop{
@@ -206,7 +207,7 @@ button:active{
 
 .header__img--wrapper{
     padding: 20px;
-    z-index: 2;
+    z-index: 50;
 }
 
 .container {
@@ -361,7 +362,7 @@ HIGHLIGHTS
 .book__price--normal{
     text-decoration: line-through;
     padding: 6px;
-    color: gray;
+    color: #bfbfbf;
 }
 
 .btn__bottom{
@@ -443,7 +444,6 @@ footer{
 
     .highlight{
         width: 100%;
-        margin-bottom: 24px;
     }
 
     .highlight:not(:last-child) {
